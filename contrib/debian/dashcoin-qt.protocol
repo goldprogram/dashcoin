@@ -1,6 +1,6 @@
 [Protocol]
-exec=dash-qt '%u'
-protocol=dash
+exec=dashcoin-qt '%u'
+protocol=dashcoin
 input=none
 output=none
 helper=true

@@ -1,15 +1,15 @@
 [Unit]
-Description=Dash's distributed currency daemon
+Description=dashcoincoin's distributed currency daemon
 After=network.target
 
 [Service]
-User=dashcore
-Group=dashcore
+User=dashcoincoincore
+Group=dashcoincoincore
 
 Type=forking
-PIDFile=/var/lib/dashd/dashd.pid
-ExecStart=/usr/bin/dashd -daemon -pid=/var/lib/dashd/dashd.pid \
--conf=/etc/dashcore/dash.conf -datadir=/var/lib/dashd -disablewallet
+PIDFile=/var/lib/dashcoincoind/dashcoincoind.pid
+ExecStart=/usr/bin/dashcoincoind -daemon -pid=/var/lib/dashcoincoind/dashcoincoind.pid \
+-conf=/etc/dashcoincoincore/dashcoincoin.conf -datadir=/var/lib/dashcoincoind -disablewallet
 
 Restart=always
 PrivateTmp=true

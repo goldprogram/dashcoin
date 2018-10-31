@@ -1,6 +1,6 @@
-usr/local/bin/dash-qt usr/bin
-share/pixmaps/dash32.xpm usr/share/pixmaps
-share/pixmaps/dash16.xpm usr/share/pixmaps
-share/pixmaps/dash128.png usr/share/pixmaps
-debian/dash-qt.desktop usr/share/applications
-debian/dash-qt.protocol usr/share/kde4/services/
+usr/local/bin/dashcoin-qt usr/bin
+share/pixmaps/dashcoin32.xpm usr/share/pixmaps
+share/pixmaps/dashcoin16.xpm usr/share/pixmaps
+share/pixmaps/dashcoin128.png usr/share/pixmaps
+debian/dashcoin-qt.desktop usr/share/applications
+debian/dashcoin-qt.protocol usr/share/kde4/services/
