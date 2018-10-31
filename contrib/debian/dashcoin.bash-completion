@@ -1,2 +1,2 @@
-contrib/dashd.bash-completion	dashd
-contrib/dash-cli.bash-completion    dash-cli
+contrib/dashcoind.bash-completion	dashcoind
+contrib/dashcoin-cli.bash-completion    dashcoin-cli
